@@ -1,4 +1,5 @@
 node_modules
 dist
+dev-dist
 src/types/api-schema.d.ts
 vite.config.ts
