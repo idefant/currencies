@@ -1,0 +1,4 @@
+node_modules
+dist
+src/types/api-schema.d.ts
+vite.config.ts
