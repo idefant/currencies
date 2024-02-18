@@ -34,6 +34,12 @@ export default defineConfig({
           logLevel: ['error'],
         },
       },
+      stylelint: {
+        lintCommand: 'stylelint "**/*.(s)?css"',
+        dev: {
+          logLevel: ['error'],
+        },
+      },
     }),
     VitePWA({
       registerType: 'autoUpdate',

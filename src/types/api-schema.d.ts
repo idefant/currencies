@@ -83,8 +83,8 @@ export interface paths {
           content: {
             "application/json": {
                 /** Format: date */
-                date?: string;
-                rates?: components["schemas"]["Rates"];
+                date: string;
+                rates: components["schemas"]["Rates"];
               }[];
           };
         };
@@ -109,8 +109,8 @@ export interface paths {
           content: {
             "application/json": {
                 /** Format: date */
-                date?: string;
-                rates?: components["schemas"]["Rates"];
+                date: string;
+                rates: components["schemas"]["Rates"];
               }[];
           };
         };
@@ -131,8 +131,8 @@ export interface paths {
           content: {
             "application/json": {
               /** Format: date */
-              date?: string;
-              rates?: components["schemas"]["Rates"];
+              date: string;
+              rates: components["schemas"]["Rates"];
             };
           };
         };

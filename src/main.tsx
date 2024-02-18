@@ -23,6 +23,9 @@ const theme = createTheme({
   },
   palette: {
     mode: 'dark',
+    background: {
+      default: '#303030',
+    },
   },
 });
 
