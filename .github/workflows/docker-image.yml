@@ -9,7 +9,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     env:
-      EXRATES_URL: ${{ secrets.EXRATES_URL }}
+      VITE_EXRATES_URL: ${{ secrets.EXRATES_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
